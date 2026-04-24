@@ -3,7 +3,7 @@ backend:
   repo: racinmat/presentation-website-demo
   branch: master
   # base_url points to this same site — the OAuth functions live at /auth and /callback
-  base_url: https://presentation-website-demo.pages.dev
+  base_url: https://presentation-website-f4a.pages.dev
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
