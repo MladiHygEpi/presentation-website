@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: racinmat/presentation-website-demo
+  repo: MladiHygEpi/presentation-website-demo
   branch: master
   # base_url points to this same site — the OAuth functions live at /auth and /callback
   base_url: https://presentation-website-f4a.pages.dev
