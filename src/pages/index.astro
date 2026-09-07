@@ -25,33 +25,6 @@ const latestPosts = allPosts
     secondaryHref={`${base}o-nas/`}
   />
 
-  <!-- Aktuality section -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2>Nejnovější aktuality</h2>
-        <a href={`${base}aktuality/`} class="section-header__link">Všechny aktuality →</a>
-      </div>
-
-      {latestPosts.length > 0 ? (
-        <div class="posts-grid">
-          {latestPosts.map(post => (
-            <PostCard
-              title={post.data.title}
-              pubDate={post.data.pubDate}
-              description={post.data.description}
-              href={`${base}aktuality/${post.slug}/`}
-              heroImage={post.data.heroImage}
-              tags={post.data.tags}
-            />
-          ))}
-        </div>
-      ) : (
-        <p class="no-posts">Zatím zde nejsou žádné aktuality. Brzy přidáme první příspěvky.</p>
-      )}
-    </div>
-  </section>
-
   <!-- About teaser -->
   <section class="section section--tinted">
     <div class="container">
